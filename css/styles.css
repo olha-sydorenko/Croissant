@@ -13,11 +13,18 @@ ul {
   justify-content: center;
 }
 
-a {
+li > a {
   color: #008000;
 }
 
 li {
   list-style: none;
   margin: auto 10px;
+}
+
+.photo {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
 }
